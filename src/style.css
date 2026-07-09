@@ -1,0 +1,91 @@
+#swiper-container {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper {
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+
+.swiper-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.swiper-slide div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide div img {
+  width: 40%;
+  height: auto;
+}
+
+form {
+  width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+form button {
+  width: 50%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #43a047;
+}
+
+#basic_form {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.form-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  width: 120px;
+  font-weight: bold;
+}
+
+.input-wrapper {
+  flex: 1;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 8px;
+}
+
+.button-area {
+  text-align: center;
+  margin-top: 20px;
+}
