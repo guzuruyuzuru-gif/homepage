@@ -1,0 +1,1 @@
+import"./style-B6I1IEMc.js";alert(`app.js`);
