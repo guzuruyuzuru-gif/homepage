@@ -90,18 +90,29 @@ form button:hover {
   margin-top: 20px;
 }
 
-.box-container {
+/* anime */
+.marimba-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+  width: 100%;
+  height: 300px;
+  gap: 8px;
+  background: #f0f0f0;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.anime-btn {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #646cff;
-  color: white;
-  border: none;
+
+.bar {
+  flex: 1;
+  height: 100%;
+  background: linear-gradient(135deg, #646cff, #a0a5ff);
   border-radius: 8px;
+  transform: translateY(100%);
+}
+
+.trigger-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
 }

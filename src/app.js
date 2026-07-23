@@ -1,22 +1,15 @@
 import './style.css';
-import { animate } from 'animejs';
+import { animate, stagger } from 'animejs';
 
-const button = document.querySelector('.anime-btn');
+const button = document.querySelector('.trigger-btn');
 
-button.addEventListener('mouseenter', () => {
-  animate('.anime-btn', {
-    scale: 1.2,
-    rotate: '5deg',
+button.addEventListener('click', () => {
+  animate('.bar', {
+    translateY: ['100%', '0%'],
+
+    delay: stagger(100),
+
     duration: 800,
-    ease: 'outElastic',
-  });
-});
-
-button.addEventListener('mouseleave', () => {
-  animate('.anime-btn', {
-    scale: 1,
-    rotate: '0deg',
-    duration: 500,
-    ease: 'outQuint',
+    ease: 'outElastic(1, .6)',
   });
 });
