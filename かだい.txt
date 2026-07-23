@@ -1,8 +1,0 @@
-【Github の URL】
-https://github.com/guzuruyuzuru-gif
-
-【GitHub Pages のURL】
- https://guzuruyuzuru-gif.github.io/homepage/app.html
-
-【成果物の説明文】
-animejsを使っ...............................
